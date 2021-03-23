@@ -1,0 +1,11 @@
+#prefix name name for output files
+name="covid"
+
+#name of bait fasta file - full path
+bait="/mnt/scratch/c1803625/1-rawdata/NC_045512_DNA.fasta"
+
+#directory location for input sample files
+input_dir="/mnt/scratch/c1803625/trimming/*_1_trim.fastq.gz"
+
+#output directory
+out_dir="/mnt/scratch/c1803625/fishing"

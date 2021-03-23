@@ -1,0 +1,18 @@
+##TO CHANGE##
+dir="/mnt/scratch/c1803625" #Working directory
+input_folder="trimming" #Location of trimmed fastq files (from dir)
+output_folder="snippy" #Output directory (from dir)
+forward_read_extension="_1_trim.fastq.gz" #What do all the forward read file$
+backward_read_extension="_2_trim.fastq.gz" #What do all the backward read fi$
+reference="${dir}/fishing/NC_045512_DNA.fasta" #DNA reference template
+#############
+
+
+#Folders (Shouldn't need to change, just change above variables
+input="${dir}/${input_folder}/*${forward_read_extension}" #Every forward rea$
+trimming="${dir}/${input_folder}" #Trimmed input directory
+output="${dir}/${output_folder}" #Snippy output directory
+snip_pre="snip_" #Prepend all snippy folders generated with this
+
+
+
